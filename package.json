@@ -1,25 +1,15 @@
 {
-  "name": "note-taker",
-  "version": "1.0.0",
-  "description": "Take Notes",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "author": "Jose Morales",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "mysql": "^2.16.0"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jmoarles072095/taker-of-the-notes.git"
-  },
-  "bugs": {
-    "url": "https://github.com/jmoarles072095/taker-of-the-notes/issues"
-  },
-  "homepage": "https://github.com/jmoarles072095/taker-of-the-notes#readme"
+    "name": "note-taker",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.16.4"
+    }
 }
