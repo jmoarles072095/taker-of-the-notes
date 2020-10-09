@@ -1,6 +1,6 @@
 // Required dependencies
-
 const fs = require("fs");
+const express = require("express");
 const notesData = require("../data/db.json");
 
 module.exports = function(app) {
