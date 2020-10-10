@@ -1,7 +1,6 @@
 // Required dependencies
 const fs = require("fs");
-const express = require("express");
-const notesData = require("../data/db.json");
+const notesData = require("../db/db.json");
 
 module.exports = function(app) {
 
@@ -9,7 +8,7 @@ module.exports = function(app) {
         // Converts the JSON array back into a string
         notes = JSON.stringify(notes);
         console.log(notes);
-        fs.writeFileSync("./data/db.json", notes, function(err) {
+        fs.writeFileSync("./db/db.json", notes, function(err) {
             if (err) {
                 return console.log(err);
             }
@@ -31,7 +30,6 @@ module.exports = function(app) {
         }
 
         console.log("req.body.id: " + req.body.id);
-
         notesData.push(req.body);
 
         // Write notes data to the database

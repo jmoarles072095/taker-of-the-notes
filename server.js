@@ -1,11 +1,10 @@
 // add required dependencies
-
 const express = require("express");
-const app = express();
 const path = require("path");
 
-// Create server application at port 3000
-const PORT = process.env.PORT || 3000;
+// Create the server application at port 7000
+const app = express();
+const PORT = process.env.PORT || 7000;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
