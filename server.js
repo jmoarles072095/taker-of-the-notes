@@ -4,7 +4,7 @@ const path = require("path");
 
 // Create the server application at port 3000
 const app = express();
-const PORT = process.env.PORT || 3000;
+PORT = process.env.PORT || 3000
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
