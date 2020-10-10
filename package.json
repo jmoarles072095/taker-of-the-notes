@@ -1,7 +1,7 @@
 {
-    "name": "note-taker",
+    "name": "myapp",
     "version": "1.0.0",
-    "description": "For users that need to keep track of a lot of information.",
+    "description": "For users that need to keep track of a lot of notes",
     "main": "server.js",
     "scripts": {
         "start": "node server.js"
