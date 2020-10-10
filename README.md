@@ -12,6 +12,16 @@ Have you ever lost a paper note, or forgotten about something you had to do? Wel
 * [Contributors](#contributors)
 * [Questions](#questions)
 
+## Link to deployed website
+
+https://taker-of-the-notes.herokuapp.com/
+
+## Deployed website
+
+<img src="./images/homeScreen.png" alt="image of deployed website">
+
+<img src="./images/notesScreen.png" alt="image of deployed website">
+
 ## Installation
 you will need vs code, npm init, and express pacakge
 
